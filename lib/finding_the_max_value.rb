@@ -1,6 +1,6 @@
 def find_max_value(array)
   # Add your solution here
-  array = array.reverse()
+  array.sort!
   puts array
   array[0]
 end
